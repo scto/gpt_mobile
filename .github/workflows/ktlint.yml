@@ -15,6 +15,10 @@ on:
       - "metadata/**"
 
 jobs:
+  permissions:
+      contents: read
+      pull-requests: write
+      
   ktlint:
     name: Check Kotlin Code Format
     runs-on: ubuntu-latest
