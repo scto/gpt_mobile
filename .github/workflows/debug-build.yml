@@ -2,18 +2,6 @@ name: Debug build APK
 
 on:
   workflow_dispatch:
-  pull_request_target:
-    branches:
-      - "main"
-    paths-ignore:
-      - ".gitignore"
-      - "**.md"
-      - "LICENSE"
-      - ".idea/**"
-      - ".github/**"
-      - ".editorconfig"
-      - "images/**"
-      - "metadata/**"
 
 jobs:
   run:
