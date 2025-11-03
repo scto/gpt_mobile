@@ -20,7 +20,7 @@ markdown = "0.5.4"
 openai = "3.8.2"
 serialization = "1.7.3" # Should not update due to kotlin version
 splashscreen = "1.0.1"
-room = "2.6.1"
+room = "2.7.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
